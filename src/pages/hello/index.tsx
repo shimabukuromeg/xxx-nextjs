@@ -7,10 +7,10 @@ import Link from 'next/link'
 const Home: NextPage = () => {
   return (
     <VStack p={4}>
-      <Heading>Topページ</Heading>
-      <Text fontSize='xl'>Topページ</Text>
-      <Link href="/hello">
-        <a>helloページへ</a>
+      <Heading>Hello, World</Heading>
+      <Text fontSize='xl'>Hello, World</Text>
+      <Link href="/">
+        <a>Topページへ</a>
       </Link>
     </VStack>
   )
